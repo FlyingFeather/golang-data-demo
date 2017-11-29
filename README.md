@@ -45,7 +45,7 @@ golang 构建数据服务
         --net host，表示容器使用当前主机的网络环境
         参数1 参数2，分别是镜像和在镜像中执行的命令
 
-- # 表示你处于容器的超级管理员的 shell
+- “#”表示你处于容器的超级管理员的 shell
 - mysql -h127.0.0.1 -P3306 -uroot -proot mysql 客户端的命令
 
 ![](https://github.com/FlyingFeather/golang-data-demo/blob/master/screenshot/11.png)
